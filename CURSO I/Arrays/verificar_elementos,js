@@ -1,0 +1,9 @@
+
+const tempoSaoPaulo = [18, 13, 38, 40]
+
+//Every - Checa todos os valores da minha Array
+const tempoPositivo = tempoSaoPaulo.every(function(valor) {
+    return valor >=0 
+})
+
+console.log(tempoPositivo)

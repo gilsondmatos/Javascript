@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #212222;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(102, 102, 102, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.2);
+    padding: 30px; /* Aumentei o espaço interno para mais espaçamento */
+    text-align: center;
+    max-width: 500px; /* Ajustei a largura máxima do container */
+    width: 90%; /* Ajustei a largura do container */
+}
+
+.calculator-box {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0; /* Aumentei o espaçamento entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]:valid {
+    border-color: green;
+}
+
+button {
+    background-color: #a30404;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-top: 20px;
+}
